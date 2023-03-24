@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+/* Hex: #150b3e
+Hex: #c7d2fe
+Hex: #7c3aed
+Hex: #d4d2db
+Hex: #585076
+Hex: #382f5a
+Hex: #c4c4c4 */
+
+.CashWithdrawal-bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.CashWithdrawal-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  height: 500px;
+  width: 450px;
+  color: #ffffff;
+  padding: 40px;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.first-char {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 50%;
+}
+
+.user-name {
+  color: #d4d2db;
+  font-weight: 600;
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+.user-account-balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-balance-text {
+  font-size: 22px;
+  color: #585076;
+}
+.amount {
+  color: #d4d2db;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.amount-in-words {
+  color: #585076;
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-size: 20px;
+}
+
+.choose-denomination-text {
+  color: #585076;
+}
+
+.denominationItemsList-container {
+  min-height: 100px;
+  /* border: 2px solid white; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  float: left;
+}
